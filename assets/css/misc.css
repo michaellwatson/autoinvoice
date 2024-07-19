@@ -1,0 +1,466 @@
+body{
+    touch-action: manipulation;
+}
+.form-row{
+  padding:5px;
+}
+.table-action .fa{
+  font-size:22px;
+}
+#client-div{
+  width:100%;    
+  z-index: 0;
+  position: relative;
+}
+
+#entries-list{
+  width:100%;    
+  z-index: 0;
+  position: relative;
+  padding: 5px;
+}
+.icon-print{
+  background-image:url(../../assets/images/icons/printer.png);
+}
+.icon-print-pdf{
+  background-image:url(../../assets/images/icons/pdf_icon.png);
+}
+.icon-add{
+  background-image:url(../../assets/images/icons/add.png);
+}
+.delete{
+  background-image:url(../../assets/images/icons/delete.png);
+}
+.redFlagReport{
+  background-image:url(../../assets/images/icons/flag_red.png);
+}
+.excelRedFlag{
+  background-image:url(../../assets/images/icons/excel_red_flag.png);
+}
+.excelWhite{
+  background-image:url(../../assets/images/icons/page_white_excel.png);
+}
+.excelWhiteNum{
+  background-image:url(../../assets/images/icons/page_white_excel_num.png);
+}
+.redFlag-row .x-grid-cell { 
+    background-color: #F4CCCC; 
+} 
+.yellowFlag-row .x-grid-cell { 
+    background-color: #FFF2CC; 
+}
+.greenFlag-row .x-grid-cell { 
+    background-color: #D9EAD3; 
+} 
+.blueFlag-row .x-grid-cell { 
+    background-color: #CFE2F3; 
+}
+.redFlag-row{ 
+    background-color: #F4CCCC; 
+} 
+.yellowFlag-row{ 
+    background-color: #FFF2CC; 
+}
+.greenFlag-row{ 
+    background-color: #D9EAD3; 
+} 
+.blueFlag-row{ 
+    background-color: #CFE2F3; 
+}
+.default-row{
+  background-color: #FFF; 
+}
+.orangeFlag-row .x-grid-cell { 
+    background-color: #fce5cd; 
+}
+.orangeFlag-row{ 
+    background-color: #fce5cd; 
+} 
+.pinkFlag-row .x-grid-cell { 
+    background-color: #ead1dc; 
+}
+.pinkFlag-row{ 
+    background-color: #ead1dc; 
+}
+.purpleFlag-row .x-grid-cell { 
+    background-color: #d9d2e9; 
+}
+.purpleFlag-row{ 
+    background-color: #d9d2e9; 
+}
+.yellow_alert{
+  background-color:#ffff00 !important;
+}
+
+#jobs-list{
+  width:100%;    
+  z-index: 0;
+  position: relative;
+}
+.icon-print{
+  background-image:url(../../assets/images/icons/printer.png);
+}
+.icon-print-pdf{
+  background-image:url(../../assets/images/icons/pdf_icon.png);
+}
+.icon-add{
+  background-image:url(../../assets/images/icons/add.png);
+}
+.delete{
+  background-image:url(../../assets/images/icons/delete.png);
+}
+.redFlagReport{
+  background-image:url(../../assets/images/icons/flag_red.png);
+}
+.excelRedFlag{
+  background-image:url(../../assets/images/icons/excel_red_flag.png);
+}
+.excelWhite{
+  background-image:url(../../assets/images/icons/page_white_excel.png);
+}
+.excelWhiteNum{
+  background-image:url(../../assets/images/icons/page_white_excel_num.png);
+}
+.redFlag-row .x-grid-cell { 
+    background-color: #F4CCCC; 
+} 
+.yellowFlag-row .x-grid-cell { 
+    background-color: #FFF2CC; 
+}
+.greenFlag-row .x-grid-cell { 
+    background-color: #D9EAD3; 
+} 
+.blueFlag-row .x-grid-cell { 
+    background-color: #CFE2F3; 
+}
+.redFlag-row{ 
+    background-color: #F4CCCC; 
+} 
+.yellowFlag-row{ 
+    background-color: #FFF2CC; 
+}
+.greenFlag-row{ 
+    background-color: #D9EAD3; 
+} 
+.blueFlag-row{ 
+    background-color: #CFE2F3; 
+}
+.default-row{
+  background-color: #FFF; 
+}
+.orangeFlag-row .x-grid-cell { 
+    background-color: #fce5cd; 
+}
+.orangeFlag-row{ 
+    background-color: #fce5cd; 
+} 
+.pinkFlag-row .x-grid-cell { 
+    background-color: #ead1dc; 
+}
+.pinkFlag-row{ 
+    background-color: #ead1dc; 
+}
+.purpleFlag-row .x-grid-cell { 
+    background-color: #d9d2e9; 
+}
+.purpleFlag-row{ 
+    background-color: #d9d2e9; 
+}
+.yellow_alert{
+  background-color:#ffff00 !important;
+}
+#personnel-div{
+  width:100%;    
+  z-index: 0;
+  position: relative;
+}
+#users-list{
+  width:100%;    
+  z-index: 0;
+  position: relative;
+}
+input.form-control.typeahead.searchPDF.tt-hint.tt-input {
+  	display:none;
+}
+.form-row{
+  padding:5px;
+}
+.table-action .fa{
+  font-size:22px;
+}
+
+.progress{
+  height:20px;
+  margin-bottom:20px;
+}
+.signature-pad--body{
+  min-height:200px;
+}
+#form-add .col-md-6.col-sm-6:not(.control-label){
+  padding:5px;
+}
+img.dark-logo {
+    height: 70px;
+}
+
+.unselected_search{
+  color:#93969a;
+  cursor:pointer;
+}
+.selected_search{
+  color:#87c363;
+  cursor:pointer;
+}
+
+.unselected_search i{
+  color:#93969a;
+  cursor:pointer;
+}
+.selected_search i{
+  color:#87c363;
+  cursor:pointer;
+}
+
+.pad-offset{
+  margin-top: -5px;
+}
+
+.headings-mobile{ display:none; font-weight: bold; text-align: left;}
+
+@media screen and (max-width: 768px) {
+
+.navbar-header {display: none;}
+.headings {display: none;}
+.headings-mobile{display: block; font-weight: bold; text-align: left !important;}
+
+}
+
+[class*=" ti-"], [class^=ti-] {
+    font-family: themify;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-menu:before {
+    font-family: "FontAwesome";
+    content: "\f0c9";
+    font-size: 20px;
+}
+.ti-close:before {
+    font-family: "FontAwesome";
+    content: "\f00d";
+    font-size: 20px;
+}
+.container-fluid {
+    padding: 4px 4px !important;
+}
+.ui-sortable li {
+  display:inline;
+}
+.nav-color{
+  color:#fff !important;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Figtree", sans-serif !important;
+}
+.x-panel-header-text-container-default{
+  font-family: "Figtree", sans-serif !important;
+}
+.x-toolbar{
+  font-family: "Nunito", sans-serif !important;
+}
+.x-column-header-text{
+    font-family: "Figtree", sans-serif !important;
+}
+.x-form-field{
+   font-family: "Nunito", sans-serif !important;
+}
+.x-grid-cell-inner{
+  font-family: "Nunito", sans-serif !important;
+}
+.x-toolbar-text{
+  font-family: "Nunito", sans-serif !important;
+}
+.submitButton{
+  font-family: "Nunito";
+}
+
+.ul_parent {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul_child li {
+    flex: 1 0 auto;
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+    display: inline-flex !important;
+    max-width:24%;
+}
+.btn{
+  font-family: "Nunito" !important;
+}
+input[type="file"]{
+  font-family: "Nunito" !important;
+}
+li[id^="document_"] {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+ul[id^="sortableDocuments_"] {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.highlight {
+  color: #545F9E;
+}
+
+.show_roles{
+  font-size:20px;
+  cursor:pointer;
+  right: 24px;
+  position: absolute;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+.column_toggle{
+  font-size:20px;
+  cursor:pointer;
+  right: 0px;
+  position: absolute;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+.autcomplete_single{
+  margin-left: 0px;
+  padding-left: 4px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.postcode_single{
+  margin-left: 0px;
+  padding-left: 5px;
+  margin-right: 0px;
+  padding-right: 4px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.lookup_button_padding{
+  padding-right: 7px;
+  padding-top: 8px;
+}
+.autocomplete_button{
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-top: 7px;
+}
+.one-col-width{
+  max-width:47% !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background: #ccc;
+}
+.table-striped tbody tr:nth-of-type(even){
+  background: #fff; 
+}
+
+.page-wrapper-small{
+  margin-left : 50px !important;
+}
+.left-sidebar-small{
+  width: 50px !importantl;
+}
+.navbar-header-small{
+  width: 50px !important;
+}
+.footer-small{
+  left: 50px !important;
+}
+.small-icon{
+  width:16px;
+  height:16px;
+}
+.table_change_headers{
+  cursor:pointer;
+}
+.table{
+  width:100%;
+}
+.table th {
+    position: relative;
+}
+.resizer {
+    /* Displayed at the right side of column */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    cursor: col-resize;
+    user-select: none;
+}
+.resizer:hover,
+.resizing {
+    border-right: 2px solid blue;
+}
+.sticky-wrapper {
+  height: 75px; /* Set the height of the wrapper to match the height of the bar */
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.sticky-bar {
+  position: absolute; /* Set position to absolute to dock it in place */
+  top: 0; /* Position it at the top of the wrapper */
+  width: 100%; /* Make it span the full width of the wrapper */
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sticky-wrapper.sticky {
+  position: fixed; /* Change position to fixed to make it follow the user */
+  top: 0; /* Position it at the top of the screen */
+  z-index: 3; /* Set a higher z-index to make it appear above other content */
+}
+
+.sticky-wrapper.sticky table{
+  position: fixed; /* Change position to fixed to make it follow the user */
+  top: 0; /* Position it at the top of the screen */
+  z-index: 3; /* Set a higher z-index to make it appear above other content */
+}
+.sticky-content {
+  position: relative; /* Set position to relative so we can position the inner elements */
+  height: 100%; /* Set the height to match the height of the bar */
+}
+.big-icon {
+  font-size:36px;
+  cursor:pointer;
+}
+.role_table_headers{
+  writing-mode: vertical-lr;
+  text-orientation: mixed | upright | sideways-right | sideways | use-glyph-orientation;
+  transform: rotate(-5deg);
+}
+.display_options_table_image{
+  width:50px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  cursor: pointer;
+}
+.image_selected{
+  filter: sepia(60%) saturate(250%) brightness(87%) hue-rotate(-195deg);
+}

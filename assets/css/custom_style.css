@@ -1,0 +1,181 @@
+.modal-fullscreen1 {
+    padding: 0 !important;
+}
+.modal-fullscreen1 .modal-dialog {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+}
+.modal-fullscreen1 .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+}
+.modal-fullscreen1 .modal-body {
+    overflow-y: auto;
+}
+/*.modal-xl {
+    padding: 0 !important;
+}
+.modal-xl .modal-dialog {
+    width: 100%;
+    max-width: 1140px;
+    //max-width: none;
+    //height: 100%;
+    margin: 0 auto;
+}
+.modal-xl .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+}
+.modal-xl .modal-body {
+    overflow-y: auto;
+}*/
+.image-arrow-container{
+	background-image: url('../../assets/uploaded_images/image-arrow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*min-height: 620px;*/
+    min-height: 590px;
+}
+.overlay-verical-1{
+    height:40px;
+    background:#000;
+    color:#fff;
+    position:absolute;
+    width:150px;
+    text-align:center;
+    line-height:4px;
+    transform: rotate(90deg);
+    z-index: 150 !important;
+}
+.overlay-verical-1:after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 88%;
+    top: 3px;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 35px solid #000;
+    transform: rotate(-90deg);
+}
+.overlay-vertical-2{
+    height: 0px;
+    background: none;
+    color: #fff;
+    position: absolute;
+    width: 55px;
+    text-align: center;
+    line-height: 40px;
+    border: 2px dashed #000;
+    transform: rotate(90deg);
+}
+.overlay-vertical-2:after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 99%;
+    top: -3px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #000;
+    transform: rotate(-90deg);
+}
+.node1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0.1em;
+    padding: 0.3em;
+    border: 2px solid rgba(0, 38, 255, 0.8);
+    border-radius: 16px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+/* Edit arrow styles by class */
+.arrow-class-1{
+    fill: #000;
+}
+.arrow-class-1 .svg-line{
+    stroke: #000;
+    stroke-dasharray: 4;
+}
+.arrow-class-2 {
+    fill: #000;
+}
+.arrow-class-2 .svg-line{
+    stroke: #000;
+    stroke-dasharray: 4;
+}
+.arrow-class-3 {
+    fill: #000;
+}
+.arrow-class-3 .svg-line{
+    stroke: #000;
+    stroke-dasharray: 4;
+}
+.arrow-class-5 {
+    fill: #000;
+}
+.arrow-class-5 .svg-line{
+    stroke: #000;
+    stroke-dasharray: 4;
+}
+/* Edit width of arrow line and text */
+.svg-line{
+    stroke-width: 2.5;
+}
+.svg-text{
+    stroke-width: 0.5;
+}
+#arrow-1-2-svg{
+	top: 84px !important;
+    //left: 70px !important;
+}
+#arrow-2-3-svg{
+	top: 170px !important;
+    //left: 270px !important;
+}
+#arrow-3-4-svg{
+	top: 255px !important;
+    //left: 470px !important;
+}
+#bottomDivImageArrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bottomDivItemImageArrow{
+    background: #f4f4f4;
+    border: #ccc solid 1px;
+    padding: 1rem;
+    text-align: center;
+    /*margin: 0.75rem;*/
+    flex: 1;
+}
+.bottomDivItemImageArrow:first-child{
+    background: #FF0000;
+}
+.bottomDivItemImageArrow:nth-child(2){
+    background: #FFFF00;
+}
+.bottomDivItemImageArrow:nth-child(3){
+    background: #00FF00;
+}
+#sortableDocuments_<?php echo $adv_column;?>{
+	margin: 0px;
+	padding: 0px;
+}
+#documentUploads_<?php echo $adv_column;?> ul li{
+	/*display: inline;*/
+	list-style-type: none;
+	background-color: #fff;
+}
+#svg-arrows svg{
+	z-index: 100 !important;
+}

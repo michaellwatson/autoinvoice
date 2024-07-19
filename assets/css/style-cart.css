@@ -1,0 +1,103 @@
+.btn-primary{
+	color:#fff !important;
+}
+.cart-top{
+	margin-top: 50px;
+}
+#total{
+	/*font-size:20px;*/
+}
+#taxtotal{
+	font-weight: normal;
+}
+.modalblock{
+	display: block !important;
+	position: static;
+	overflow: visible;
+}
+.delete{
+	cursor:pointer;
+}
+.trash{
+	display:none !important;
+}
+.form-error{
+	border:1px solid #FC8064;
+	background-color: #ffece4;
+}
+.alert_message{
+	display: none;
+}
+/*
+.link_to_phone{
+	display: none;
+}
+.link_to_email{
+	display: none;
+}
+*/
+.radio{
+	padding-top: 15px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #DDD;
+}
+.headers{
+	background-color: #1C9C8E;
+	color:#fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.borderless td, .borderless th {
+    border: none !important;
+}
+.tt-suggestion:hover { 
+  cursor: pointer; 
+  color: #fff; 
+  background-color: #0097cf; 
+} 
+.tt-suggestion.tt-cursor { 
+  color: #fff; 
+  background-color: #0097cf; 
+}
+.noMargin{
+	margin-left: 0px;
+	margin-right:0px;
+}
+.brand{
+	color:#1C9C8E;
+}
+.status_base{
+	color:#fff !important;
+	text-align: center;
+    padding: 5px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.issued{
+	background-color: #3574f4;
+}
+.not_submitted{
+	background-color: #e4ca1b;
+}
+.application_expired{
+	background-color: #e96413;
+}
+.more_info{
+	background-color: #1aeec9;
+}
+.accepted{
+	background-color: #20b443;
+} 
+.declined{
+	background-color: #df0d30;
+} 
+.part_captured{
+	background-color: #912ce7;
+}
+.paid{
+	background-color: #e323e5;
+}
+.refunded{
+	background-color: #760e0e;
+} 

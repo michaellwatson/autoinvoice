@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /assets/uploads/files/
+
+# Get the base URL using %{HTTP_HOST} server variable
+RewriteCond %{HTTP_HOST} ^(.+)$
+
+# Redirect all requests to the PHP page with the original request path as a query parameter
+RewriteRule ^(.*)$ https://%1/Auth/check?path=$1 [QSA,L]

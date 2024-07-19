@@ -1,0 +1,39 @@
+{
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "cross-env": "^5.2.1",
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "laravel-mix": "^4.1.4",
+    "node-sass": "^5.0",
+    "resolve-url-loader": "^2.3.2",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "scripts": {
+    "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {
+    "bootstrap-switch": "^3.4.0",
+    "cheerio": "^1.0.0-rc.3",
+    "csv-stringify": "^5.3.3",
+    "fs": "0.0.1-security",
+    "jsdom": "^15.2.1",
+    "lightbox2": "^2.11.4",
+    "mysql": "^2.17.1",
+    "node-html-parser": "^1.1.16",
+    "table-scraper": "^0.1.0",
+    "toastr": "^2.1.4"
+  }
+}

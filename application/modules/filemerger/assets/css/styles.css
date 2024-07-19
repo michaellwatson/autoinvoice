@@ -1,0 +1,12 @@
+.sortableDocuments{
+	margin: 0px;
+    padding: 0px;
+}
+
+.documentUploads ul li{
+    display: inline;
+    list-style-type: none;
+    background-color: #fff;
+    padding: 4px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,297 @@
+
+@media only screen and (max-width: 1380px) {
+.visitor .visitor-info p {
+	font-size: 11px;
+}
+}
+
+@media only screen and (max-width: 1220px) {
+body {
+	overflow-x: hidden;
+}
+/*
+.widget-visitors div[class*="col-md-3"] {
+	width: 50%;
+}
+*/
+.widget-visitors .widget-list {
+	margin-bottom: 25px;
+}
+.visitors-list div[class*="col-md-3"] {
+	width: 33%;
+}
+.visitor .visitor-info p {
+	font-size: 12px;
+}
+.card .card-body ul li {
+	width: 45%;
+	margin-right: 23px;
+}
+.card .card-body ul li b {
+	width: 125px;
+	font-size: 13px;
+}
+.card .card-body ul li span {
+	font-size: 12px;
+}
+.table-responsive {
+	overflow-x: auto;
+}
+.visitors-list .list-view thead tr th {
+	vertical-align: top;
+}
+.visitors-list .list-view .table {
+	margin-bottom: 0;
+}
+.visitors-list div[class*="col-md-3"] {
+	width: 50%;
+}
+.login-wrapper {
+	background-size: inherit;
+}
+.left-section h2 {
+	font-size: 30px;
+	line-height: 35px;
+}
+.right-section h3 {
+	font-size: 40px;
+}
+}
+
+@media only screen and (max-width: 980px) {
+.navbar-form {
+	width: 28%;
+	margin: 13px 0;
+}
+.navbar-default .navbar-nav>li>a {
+	padding: 25px 11px;
+}
+.navbar-default li.navbar-user a {
+	padding: 15px 11px;
+	font-size: 12px;
+}
+.widget-map {
+	margin: 15px 0 15px 0;
+}
+.widget-chart .widget-chart-content {
+	margin-bottom: 15px;
+}
+.widget-chart-sidebar {
+	float: none;
+}
+.card .card-body ul li b {
+	width: 97px;
+}
+.card .card-body ul li {
+	width: 44%;
+}
+}
+
+@media only screen and (max-width: 850px) {
+}
+
+@media only screen and (max-width: 767px) {
+body {
+	overflow-x: hidden;
+}
+.sidebar {
+	width: 250px;
+	top: 0;
+	left: -250px;
+	float: none;
+	z-index: 999;
+}
+.sidebar.toggled {
+	left: 0;
+}
+.inner-wrapper {
+	margin-left: 20px;
+	padding: 120px 0 10px 0;
+}
+.navbar-default .navbar-brand {
+	width: 150px;
+	height: auto;
+}
+.navbar-brand>img {
+	width: 100%;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	margin: 5px 0;
+	padding: 0;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #000000;
+}
+.weekly-report {
+	background-color: transparent;
+}
+.weekly-detail {
+	background-color: #ffffff;
+	margin-bottom: 15px;
+}
+.navbar-header {
+    padding: 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.navbar-default .top-menu-list {
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+}
+.navbar-nav>li.new-visitor {
+	display: none;
+}
+.navbar-default li.navbar-user a {
+	padding: 5px 10px;
+	font-size: 12px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none;
+	width: 43%;
+	margin: 0;
+	padding: 5px 0;
+	display: inline-block;
+	margin-right: 10px;
+}
+.navbar-form .btn {
+	right: 10px;
+	font-size: 12px;
+	margin-top: -9px;
+}
+.navbar-form .form-control {
+	font-size: 12px;
+	height: auto;
+}
+.nav>li {
+	display: inline-block;
+}
+.navbar-default .navbar-nav>li>a {
+	padding: 0px 10px;
+	font-size: 13px;
+}
+.navbar-default .navbar-nav>li>a .badge {
+	top: -6px;
+	right: 1px;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	font-size: 9px;
+}
+.navbar-user a .user-img {
+	width: 30px;
+	height: 30px;
+}
+.navbar-nav {
+	margin: 7.5px -15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.navbar-default li.navbar-user .dropdown-menu, .navbar-nav .open .dropdown-menu {
+	position: absolute;
+	background-color: #ffffff;
+}
+.navbar-default li.navbar-user .dropdown-menu {
+	left: -41px;
+	top: 46px;
+}
+.navbar-nav .open .dropdown-menu {
+	left: -172px;
+}
+footer {
+	left: 0;
+	text-align: center;
+}
+.widget-visitors div[class*="col-md-3"] {
+	width: 100%;
+}
+.page-top .col-md-6 {
+	width: 49%;
+	display: inline-block;
+}
+.visitors_form form .form-group .col-sm-8 {
+	padding: 0;
+}
+.left-section {
+	display: none;
+}
+.inner-container {
+	padding: 0 30px;
+}
+.right-section h3 {
+	font-size: 30px;
+	text-align: center;
+}
+.right-section p {
+	text-align: center;
+	font-size: 13px;
+}
+.login-logo a {
+	display: block;
+}
+.login-logo a img {
+	margin: 30px auto;
+}
+	.empty-bar {
+		padding-top: 50px;
+	}
+	.search-wrapper.form-right form .form-group label {
+		width: 46%;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+.page-top .col-md-6 {
+	text-align: left;
+	width: 100%;
+}
+.page-top .view-icons {
+	margin-top: 15px;
+}
+.visitors_form form .form-group {
+	margin: 0 0 5px 0;
+}
+}
+
+@media only screen and (max-width: 560px) {
+.visitors-list div[class*="col-xs-6"] {
+	width: 100%;
+}
+.card .card-body ul li {
+	width: 100%;
+	margin-right: 0;
+}
+.card .card-body ul li b {
+	width: auto;
+}
+footer {
+	padding: 0;
+}
+.card .card-body ul li b {
+	width: 125px;
+}
+.card .card-header .thumbnail {
+	width: 70px;
+}
+.card .card-header .card-holder-name {
+	margin-left: 15px;
+}
+.card .card-header .card-holder-name h2 {
+	font-size: 15px;
+}
+.card .card-header .card-holder-name h3 {
+	font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.navbar-default .navbar-brand {
+	width: 100%;
+	height: auto;
+}
+}

@@ -1,0 +1,20 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA] 
+
+# --
+# Redirect PDF requests to the Security controller
+RewriteRule ^assets/quotes/(.*)$ index.php/security?f=$1 [L]
+
+# second way
+# RewriteRule ^assets/quotes/([A-Za-z0-9_]+\.pdf)$ index.php/security/?f=$1 [L]
+# --
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php80” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php80 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
